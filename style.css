@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body{
+    background-color:rgb(201, 228, 252) ;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+
+    font-size: 16px; 
+    font-weight: normal; 
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.tit{
+    text-align: center
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: #7da8ff;
+}
+
+a:visited{
+    color: #000000;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info-text{
+    margin: 20px;
+}
+
+
+
+.info p {
+    color: #86898f;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+@media (max-width:700px) {
+    .info{
+        text-align: center;
+        display: block
+    }
+    
+}
+
+.container{
+    padding-top: 20px;
+    max-width: 75%;
+    margin: auto;
+}
+
+.social{
+    /*background-color: cornsilk;*/
+    padding: 0px 10px;
+    /*border: 5px solid blanchedalmond;*/
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.card{
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.bg-fon{
+    background-color: #c2d6ff;
+}
+
+.list{
+    padding: 0 30px;
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table tr{
+    padding-bottom: 5px;
+}
+
+.contact{
+
+}
+
+.form textarea{
+    width: 43%;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+.form input{
+    width: 50%;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+}
+
+
+.row >.form{
+   width: 50%;
+   margin-right: 0%;
+}
+
+.btn{
+    width: 100px;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
